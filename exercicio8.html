@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 8</title>
+    <style>
+        body{
+            background-color:aqua;
+            color:black;
+            font: normal 22pt Arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+
+        window.alert('Bom dia, vamos estudar um pouco de JavaScript')
+        var precoProduto = parseFloat(prompt("Digite o valor do produto:"));
+        var desconto = parseFloat(prompt("Digite o valor do desconto"));
+        var  valordoDesconto = (precoProduto / 100 * (desconto))
+        var precoComdesconto = (precoProduto - valordoDesconto)
+        document.write("O valor do seu produto com desconto é de : "  + precoComdesconto)
+    </script>
+    
+</body>
+</html>
+
